@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <br><br>
+                <h1>Create <br>Calculator <br> JavaScript</h1>
+            </div>
+            <div class="col-5">
+                <div class="card">
+                    <div class="row">
+                        <div class="col" style="background-color: white;">
+                            <div id="show"></div>
+                            <div id="result"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col blue" onclick="ac()">AC</div>
+                        <div class="col blue" onclick="del()">DEL</div>
+                        <div class="col blue" onclick="modulo()">%</div>
+                        <div class="col blue" onclick="division()">/</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" onclick="afficher('7')">7</div>
+                        <div class="col" onclick="afficher('8')">8</div>
+                        <div class="col" onclick="afficher('9')">9</div>
+                        <div class="col blue" onclick="multiplication()">*</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" onclick="afficher('4')">4</div>
+                        <div class="col" onclick="afficher('5')">5</div>
+                        <div class="col" onclick="afficher('6')">6</div>
+                        <div class="col blue" onclick="moins()">-</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" onclick="afficher('1')">1</div>
+                        <div class="col" onclick="afficher('2')">2</div>
+                        <div class="col" onclick="afficher('3')">3</div>
+                        <div class="col blue" onclick="plus()">+</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" onclick="afficher('0')">0</div>
+                        <div class="col" onclick="afficher('00')">00</div>
+                        <div class="col" onclick="afficher('.')">.</div>
+                        <div class="col blue" onclick="egale()">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script2.js"></script>
+</body>
+</html>

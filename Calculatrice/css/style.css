@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('DS-DIGIB.TTF') format('truetype'); 
+}
+body{
+    background-color: rgb(168, 168, 168); 
+    padding: 40px; 
+    font-size: 20px;
+}
+h1{
+    font-size: 80px;
+    border-left: 5px solid black;
+    padding: 0 20px;
+}
+.card{
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+#show{
+    height: 50px;
+    overflow-x: auto;
+    width: auto;
+    margin: 10px;
+    text-align: left;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 30px;
+}
+#result{
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 30px;
+    text-align: right;
+    color: gray;
+    height: 20px;
+}
+.card .col{
+    margin: 5px 8px;
+    padding: 10px 5px;
+    background-color: rgb(219, 219, 221);
+    border-radius: 5px;
+}
+.card .col:hover{
+    background-color: rgb(193, 193, 194);
+}
+.card .blue{
+    color: rgb(5, 201, 201);
+}
+.col-5{
+    padding: 0 40px;
+}
